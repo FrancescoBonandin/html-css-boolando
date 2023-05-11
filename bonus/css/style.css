@@ -215,50 +215,5 @@ footer ul.my-row{
     margin: .5em 0em;
 }
 
-/* footer ul > li{
-    padding: 1em ;
-} */
-
-
-
 /*FOOTER*/
 
-
-
-/*-------DEBUG---------*/
-
-/* .debug{
-
-    background-color: aqua;
-    border: 3px dashed red;
-}
-
-.debug header{
-    height: 150px;
-    background-color: brown;
-}
-
-.debug header .my-row > *{
-    border: 5px solid black;
-    padding: 5px;
-}
-
-.debug main{
-    height: 300px;
-    background-color: green;
-}
-
-.debug main .my-row *{
-    border: 5px solid black;
-    padding: 5px;
-}
-
-.debug footer{
-    height: 150px;
-    background-color: red;
-}
-
-.debug footer .my-row > *{
-    border: 5px dashed black;
-    padding: 5px;
-} */
