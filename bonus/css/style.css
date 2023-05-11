@@ -62,20 +62,11 @@ a{
     width: calc((100% / 6) * 4) ;
 }
 
-body > div{
-    height: 115px;  /* fugno incredibile */
-
-}
 /*---------------*/
 
 /* HEADER */
 
 header{
-    position:fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
     background-color: #FF6900;
     padding: 1em;
 }
@@ -116,13 +107,9 @@ header .my-row.col-1-2{
 /* HEADER */
 
 /* MAIN */
-
 main{
-    margin-top: 80px;
-    margin-bottom: 116;
     padding: 10px 0;
 }
-
 main .my-row{
     justify-content: space-between;
     align-content:space-between ;
@@ -134,20 +121,8 @@ main .my-row{
 }
 
 
-.img-container {
+.img-container{
     position: relative;
-}
-
-.img-container > img:nth-of-type(2){
-    display: none;
-}
-
-.img-container:hover > img:nth-of-type(1){
-    display: none;
-}
-
-.img-container:hover > img:nth-of-type(2){
-    display: inline-block;
 }
 
 .tag-container{
@@ -186,9 +161,9 @@ main .my-row{
     text-align: center;
 }
 
-/* .clip > div:hover{
+.clip > div:hover{
     color: red;
-} */
+}
 
 .red-text{
     color: red;
@@ -204,11 +179,6 @@ main .my-row{
 
 /*FOOTER*/
 footer{
-    position:fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
     padding: 30px 0;
     background-color: #1A1A1A;
 }
