@@ -107,7 +107,9 @@ header .my-row.col-1-2{
 /* HEADER */
 
 /* MAIN */
-
+main{
+    padding: 10px 0;
+}
 main .my-row{
     justify-content: space-between;
     align-content:space-between ;
@@ -148,8 +150,19 @@ main .my-row{
     position: absolute;
     top: 5%;
     right: 0;
-    padding: 0.5em;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
     font-size: 1.2em;
+}
+
+.clip > div{
+
+    text-align: center;
+}
+
+.clip > div:hover{
+    color: red;
 }
 
 .red-text{
@@ -160,15 +173,61 @@ main .my-row{
     text-decoration: line-through;
 }
 
-
-
 /* MAIN */
+
+
+
+/*FOOTER*/
+footer{
+    padding: 30px 0;
+    background-color: #1A1A1A;
+}
+
+footer::before{
+    content: "";
+    display: table;
+
+}
+
+footer::after{
+    content: "";
+    display: table;
+
+}
+
+footer > .container > .my-row{
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+
+footer ul.my-row{
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.info-nav ul > li:nth-of-type(2) {
+    margin: .5em 1em;
+}
+
+.social-nav ul > li:nth-of-type(2) {
+    margin: .5em 0em;
+}
+
+/* footer ul > li{
+    padding: 1em ;
+} */
+
+
+
+/*FOOTER*/
 
 
 
 /*-------DEBUG---------*/
 
-.debug{
+/* .debug{
 
     background-color: aqua;
     border: 3px dashed red;
@@ -202,4 +261,4 @@ main .my-row{
 .debug footer .my-row > *{
     border: 5px dashed black;
     padding: 5px;
-}
+} */
