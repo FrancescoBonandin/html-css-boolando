@@ -186,6 +186,10 @@ main .my-row{
     text-align: center;
 }
 
+.capped{
+    text-transform: uppercase;
+}
+
 .red-text{
     color: red;
 }
